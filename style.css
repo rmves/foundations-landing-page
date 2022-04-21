@@ -1,4 +1,4 @@
-/* Section One */
+/* Header */
 body {
     margin: 0;
     display: flex;
@@ -27,8 +27,8 @@ body {
     list-style-type: none;
 }
 
-/* Section Two */
-.main {
+/* Section One */
+.section-one {
     background-color: #1F2937;
     display: flex;
     padding: 80px 0 80px 0;
@@ -63,5 +63,36 @@ body {
 }
 
 img {
-    border-radius: 50%;
+    border-radius: 5%;
+    height: 200px;
+    width: 200px;
+}
+
+/* Section Two */
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+    text-align: center;
+    padding: 25px 0 40px 0;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding-bottom: 75px;
+}
+
+.text {
+    justify-content: center;
+    color: #828282;
+    font-size: 18px;
+}
+
+.img {
+    max-width: 200px;
+    gap: 4px;
 }
