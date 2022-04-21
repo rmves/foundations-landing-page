@@ -1,0 +1,27 @@
+.first-container {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 52px;
+}
+
+.left {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style-type: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
