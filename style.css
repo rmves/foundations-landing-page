@@ -119,6 +119,44 @@ img {
 }
 
 /* Section Four */
+.section-four {
+    display: flex;
+    justify-content: center;
+}
 
+.container-four {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    margin: 75px;
+    border-radius: 8px;
+    padding: 35px 100px;
+    gap: 100px;
+    align-items: center;
+}
 
+.action-text {
+    color:#F9FAF8;
+    font-weight: 800;
+    font-size: 24px;
+}
 
+.btn-two {
+    height: fit-content;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-style:solid;
+    border-color: #F9FAF8;
+    padding: 5px 20px 5px 20px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+}
